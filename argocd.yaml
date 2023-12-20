@@ -3,7 +3,7 @@ kind: ArgoCD
 metadata:
   finalizers:
   - argoproj.io/finalizer
-  generation: 5
+  generation: 1
   name: argocd
   namespace: argocd
 spec:
