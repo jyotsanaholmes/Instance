@@ -3,7 +3,7 @@ kind: ArgoCD
 metadata:
   finalizers:
   - argoproj.io/finalizer
-  
+  generation: 4
   name: openshift-gitops
   namespace: openshift-gitops
   ownerReferences:
