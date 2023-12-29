@@ -4,8 +4,8 @@ metadata:
   finalizers:
   - argoproj.io/finalizer
   generation: 1
-  name: argocd
-  namespace: argocd
+  name: openshift-gitops
+  namespace: openshift-gitops
 spec:
   applicationSet:
     resources:
