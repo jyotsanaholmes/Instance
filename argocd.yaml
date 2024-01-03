@@ -4,7 +4,7 @@ metadata:
   finalizers:
   - argoproj.io/finalizer
   generation: 1
-  name: new-argocd
+  name: argocd
   namespace: argocd
 spec:
   applicationSet:
