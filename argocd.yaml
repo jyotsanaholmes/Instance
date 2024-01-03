@@ -4,8 +4,8 @@ metadata:
   finalizers:
   - argoproj.io/finalizer
   generation: 1
-  name: new-argocd
-  namespace: namespace-gitops-test-check
+  name: argocd
+  namespace: argocd-startup
 spec:
   applicationSet:
     resources:
