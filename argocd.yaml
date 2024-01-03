@@ -4,8 +4,8 @@ metadata:
   finalizers:
   - argoproj.io/finalizer
   generation: 1
-  name: argocd
-  namespace: argocd-startup
+  name: new-argocd
+  namespace: argocd
 spec:
   applicationSet:
     resources:
