@@ -1,11 +1,11 @@
-apiVersion: argoproj.io/v1beta1
+apiVersion: argoproj.io/v1alpha1
 kind: ArgoCD
 metadata:
   finalizers:
   - argoproj.io/finalizer
   generation: 1
-  name: openshift-gitops
-  namespace: openshift-gitops
+  name: new-argocd
+  namespace: namespace-gitops-test-check
 spec:
   applicationSet:
     resources:
