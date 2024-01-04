@@ -5,7 +5,7 @@ metadata:
   - argoproj.io/finalizer
   generation: 1
   name: argocd
-  namespace: argocd
+  namespace: argotest
 spec:
   applicationSet:
     resources:
