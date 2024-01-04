@@ -1,18 +1,11 @@
-apiVersion: argoproj.io/v1beta1
+apiVersion: argoproj.io/v1alpha1
 kind: ArgoCD
 metadata:
   finalizers:
   - argoproj.io/finalizer
-  generation: 4
-  name: openshift-gitops
-  namespace: openshift-gitops
-  ownerReferences:
-  - apiVersion: pipelines.openshift.io/v1alpha1
-    blockOwnerDeletion: true
-    controller: true
-    kind: GitopsService
-    name: cluster
-    uid: 29df67ed-c7a8-4ba9-a03d-29f24554cad5
+  generation: 1
+  name: test-argocd
+  namespace: argoapp
 spec:
   applicationSet:
     resources:
