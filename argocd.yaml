@@ -1,7 +1,6 @@
 apiVersion: argoproj.io/v1beta1
 kind: ArgoCD
 metadata:
-  resourceVersion: '54969'
   name: openshift-gitops
   generation: 2
   managedFields:
